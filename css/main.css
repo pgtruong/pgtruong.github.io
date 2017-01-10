@@ -41,3 +41,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+#contactSocial{
+    padding-bottom: 15%;
+    margin-left: 20%;
+}
