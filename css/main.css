@@ -46,3 +46,11 @@ ul.posts li {
     padding-bottom: 15%;
     margin-left: 20%;
 }
+
+.contactSize{
+    width: 15%;
+    height: 15%;
+    padding: 5%;
+    float: left;
+    margin: 0;
+}
