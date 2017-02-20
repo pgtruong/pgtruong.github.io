@@ -50,11 +50,45 @@ ul.posts li {
     padding-bottom: 1%;
 }
 
-figure, figcaption{
-display: block;
-font-style: italic;
-font-variant: small-caps;
+.wrapper {
+  text-align:center;
+  margin:0 auto;
+}
 
+figure {
+  display: inline-block;
+  border:1px solid grey;
+  position: relative;
+  overflow:hidden;
+  width:300px;
+}
+
+figure a {
+  display: block;
+}
+
+figure:hover:before {
+  content: '';
+  background: rgba(255,0,0,0.25);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+figcaption {
+  position: absolute;
+  height:50px;
+  width:100%;
+  line-height:50px;
+  background-color: grey;
+  bottom:-50px;
+  transition: bottom 0.5s ease;
+}
+
+figure:hover figcaption {
+  bottom:0;
 }
 
 .contactSize{
