@@ -50,16 +50,10 @@ ul.posts li {
     padding-bottom: 1%;
 }
 
-.wrapper {
-  text-align:center;
-  margin:0 auto;
-}
-
 figure {
-  display: inline-block;
+  display: inline;
   border:1px solid grey;
   position: relative;
-  overflow:hidden;
 }
 
 figure a {
