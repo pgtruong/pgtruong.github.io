@@ -60,7 +60,6 @@ figure {
   border:1px solid grey;
   position: relative;
   overflow:hidden;
-  width:300px;
 }
 
 figure a {
