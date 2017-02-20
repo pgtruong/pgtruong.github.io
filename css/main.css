@@ -50,6 +50,13 @@ ul.posts li {
     padding-bottom: 1%;
 }
 
+figure, figcaption{
+display: block;
+font-style: italic;
+font-variant: small-caps;
+
+}
+
 .contactSize{
     width: 10%;
     height: 15%;
