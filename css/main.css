@@ -54,7 +54,7 @@ figure {
   display: inline-block;
   border:1px solid grey;
   position: relative;
-  overflow:hidden;
+  overflow:visible;
 }
 
 figure a {
