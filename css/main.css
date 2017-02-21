@@ -51,9 +51,10 @@ ul.posts li {
 }
 
 figure {
+  float: left;
   display: inline-block;
   border:1px solid grey;
-  position: absolute;
+  position: relative;
   overflow:hidden;
 }
 
