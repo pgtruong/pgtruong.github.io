@@ -51,16 +51,11 @@ ul.posts li {
 }
 
 figure {
-  float: left;
-  display: inline-block;
   border:1px solid grey;
   position: relative;
   overflow:hidden;
 }
 
-figure a {
-  display: block;
-}
 
 figure:hover:before {
   content: '';
