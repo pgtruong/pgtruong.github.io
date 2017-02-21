@@ -53,7 +53,7 @@ ul.posts li {
 figure {
   display: inline-block;
   border:1px solid grey;
-  position: relative;
+  position: absolute;
   overflow:hidden;
 }
 
